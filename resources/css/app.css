@@ -1,0 +1,27 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+[x-cloak] {
+    display: none;
+}
+
+td {
+    padding: 10px; /* Space within cells */
+    border :#ccc 1px /* Optional: border for cells */
+}
+
+ tr {
+    margin-top: 10px; /* Space between tbody rows */
+    background-color: white; /* Optional: background for tbody rows */
+}
+table {
+    width: 100%;
+    border-collapse: separate; /* Allow spacing */
+    border-spacing: 0 10px; /* Space between rows */
+}
+th {
+    padding: 10px; /* Space within cells */
+    border: 1px  ; /* Optional: border for cells */
+    text-align: center; /* Center text horizontally */
+}
