@@ -43,7 +43,7 @@ class HandleCheckoutSessionCompleted
                         'name' => $session->shipping_details->name,
                         'city' => $session->shipping_details->address->city,
                         'country' => $session->shipping_details->address->country,
-                        'line1' => $session->shipping_details->address->line1,
+                         'line1' => $session->shipping_details->address->line1,
                         'line2' => $session->shipping_details->address->line2,
                         'postal_code' => $session->shipping_details->address->posta_code,
                         'state' => $session->shipping_details->address->state,
